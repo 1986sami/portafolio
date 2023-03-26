@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color:   rgb(58, 53, 53);
+    width: 100%;
+    box-shadow: 10px 5px 5px 1px green;/*esta propiedad es para ubicar la sombra eje horizontal,verticaly color*/
+    backdrop-filter: blur(5px);
+    
+   
+    
+}
+
+.navbar img{
+   
+    height: 90px;
+    margin-left: 90px;
+
+}
+
+
+.menu{
+    display: flex;    
+    width: 50%;
+    justify-content: space-around;
+   
+    
+
+   
+   
+    
+}
+.menu li{
+    list-style: none;
+    padding: 30px;
+    
+  
+}
+
+.menu a{
+    color: azure;
+    text-decoration: none;    
+    font-size: 25px;
+    flex-direction: flex-end;
+    
+   
+    
+    
+}
+
+.menu a:hover{
+    background-color: rgb(34, 112, 34);
+    padding:  10px  20px;
+    color: black;
+    transition: ease-in .4s;
+
+}
+.main{
+    margin:  0 auto;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;   
+    display: grid;/**/
+    grid-template-columns: repeat(2,1fr);/*esta acomoda tambien a las lados*/
+    align-items: center;
+    /*background-color:   rgb(58, 53, 53);*/
+    /*background-image: url(/imagen/fondo.jpeg);
+    background-repeat: no-repeat;*/
+    color: azure;
+  
+}
+.info-content{
+    margin-left: 90px;
+
+}
+.span {
+    text-transform:uppercase;
+    margin-top: 10px;
+    color: green;
+    font-size: 70px;
+}
+
+.informacion{
+    font-size: 30px;
+    padding: 20px;
+    color: azure;
+}
+h1{
+    font-size: 40px;
+   
+}
+span{
+    color: green;
+    font-size: 100px;
+    
+
+}
+.img-foto{
+    width: 20vw;
+    margin-left: 260px;
+    border-radius: 350%;
+   box-shadow:  2px 2px  4px 2px red;
+   margin: 100px;
+
+
+
+}
+.button{
+    padding: 10px 20px;
+    background-color: green;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor:pointer;
+   
+}
+/*sobre mi*/
+
+.title__central{
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    padding: 30px;
+   
+}
+.title__container{
+    background-color: green;
+    flex-direction: column;
+    width: 70%;
+    height: 500px;
+    margin-left: 200px;
+    border-radius: 0 100px 0 100px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 2px white;
+    background-color:  rgb(34, 112, 34,0.5);
+   
+  
+    
+    
+    
+   
+
+}
+
+.title__sobre-mi{
+    padding: 20px 100px 30px 100px;
+    color: azure;
+}
+.title__network{
+    display: flex;
+}
+/*skill*/
+.skills{
+    background-color:  rgb(34, 112, 34,0.5);
+    width: 80%;
+    height: 500px;
+    padding: 20px;
+    margin-left: 200px;
+    margin-top: 150px;
+    box-shadow: 0 0 0 3px white;
+
+}
+
+
+.skills__line{
+   
+    display: flex;
+    padding: 50px;
+    list-style: none;
+  
+   
+   
+    
+}
+.skills__box{
+    margin-right: 1.25rem;
+    padding: 30px;
+    text-decoration: none;  
+    background-color: white;    
+    width: calc(45% - 6rem);
+    border-color: aqua;
+    border-radius: 50px;    
+    list-style: none;  
+    justify-content: center;
+    
+ 
+
+
+}
+
+.skills__box img{
+    height: 200px;
+}
+/*hobbies*/
+.hobbies{
+    background-color:  rgb(34, 112, 34,0.5);
+    width: 80%;
+    height: 500px;
+    padding: 20px;
+    margin-left: 200px;
+    margin-top: 90px;    
+    box-shadow: 0 0 0 3px white;
+
+
+}
+.hobbies-line{
+    display: flex;
+    padding: 50px;
+    list-style: none;
+
+}
+.hobbies-box{
+    margin-right: 1.25rem;
+    padding: 30px;
+    text-decoration: none;  
+    background-color: white;
+    display: flex;
+    width: calc(45% - 6rem);
+    border-color: aqua;
+    border-radius: 50px;    
+    list-style: none;  
+    justify-content: center;
+
+}
+.hobbies-box img{
+    height: 120px;
+}
+
+/*academico*/
+.academic{
+    background-color:  rgb(34, 112, 34,0.5);
+    width: 80%;
+    height: 600px;
+    padding: 20px;
+    margin-left: 200px;
+    margin-top: 90px; 
+    box-shadow: 0 0 0 3px white;
+   
+   
+
+}
+.courses{
+    display: flex;
+    list-style: none;
+    height: 300px;
+   
+    align-content: center;
+}
+.course-title{
+    list-style: none;
+}
+.course-img{
+    list-style: none;
+    padding: 20px;
+   
+    
+    
+}
+
+
+.course-subtitle{
+    list-style: none;
+}
+
+.courses-box{
+    background-color: azure;
+    padding: 10px;
+    margin: 20px;
+    width: 30%;
+    display: flex;
+    margin: 30px;
+    margin-left: 100px;
+    height: 400px;
+   
+  
+    align-content: center;
+
+}
+/*portafolio*/
+.experience{
+    background-color:  rgb(34, 112, 34,0.5);
+    width: 80%;
+    height: 1000px;
+    padding: 20px;
+    margin-left: 200px;
+    margin-top: 90px; 
+    box-shadow: 0 0 0 3px white;
+   
+
+}
+.experiencia-box img{
+    height: 200px;
+    background-color: blue;
+    padding: 30px;
+    margin-right: 30px;
+    
+    
+}
+.experiencia-box{
+  
+    display: flex;
+    padding: 40px;
+    margin: 30px;
+
+}
+.info-container{
+    text-align: center;
+    background-color: azure;
+   
+    padding: 50px;
+}
+
+
+
+
+
+/**contacto*/
+.contact{
+  
+    background-color:  rgb(34, 112, 34,0.5);
+    width: 80%;
+    height: 700px;
+    padding: 20px;
+    margin-left: 200px;
+    margin-top: 90px; 
+    box-shadow: 0 0 0 3px white;
+   
+  
+
+}
+.contact-subtext{
+    font-size: 20px;
+}
+.contactar{
+   
+    width: 100%;
+    height: 50px;
+}
+.contactar2{
+   
+    display: flex;
+    margin:  170px 0 100px;
+   
+    
+}
+
+.title__central1{
+    text-align: center;   
+    height: 50px;
+    width: 80%;
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    padding: 30px
+   
+}
+ form{
+    justify-content: center;  
+    flex-direction: column;
+    padding: 10px;
+    display: flex;      
+    margin: 30px;
+    width: 50%;
+    font-size: 20px;
+   
+}
+.contact img{
+    height: 400px;
+    padding: 50px;     
+    margin:  30px  30px 50px 100px;
+}
+.contact-title{    
+    color: red;
+    font-size: 40px;
+}
+input{
+    font-size: 20px;
+    border: 0;
+}
+.submit{
+    background-color: red;
+    border:0;
+    width: 250px;
+    padding: 15px;
+    color: azure;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(201, 199,253, 0.5);
+    cursor: pointer;
+    transition: ease-in .4s;
+}
+
+.input-container{
+    width:  80%;
+}
+
+
+
+
+
+
+
+
+/*foter*/
+footer{
+    background-color:   rgb(58, 53, 53);
+    color: azure;
+    
+}
+.rodape{
+    background-color:   rgb(58, 53, 53);
+    height: 90px;
+    text-align: center;
+    padding: 30px;
+    
+}
+.footer p{
+    color: aliceblue;
+}
+
