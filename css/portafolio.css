@@ -434,3 +434,78 @@ footer{
     color: aliceblue;
 }
 
+@media /*screen  and*/ (max-width:480px){
+    .menu{
+        font-size: 1rem;  
+        flex-direction: flex-end;
+        margin-top: 50px;  
+        font-size: 10px;
+       
+         
+        
+    }
+  
+    .navbar{
+        width: 100%;
+        font-size: 10px;
+      
+    }
+    .title__container {
+        width: 170%;
+       margin-left: 90px;
+    }
+    .skills{
+        width: 170%;
+        margin-left: 90px;
+    }
+    .skills__line{
+        width: 110%;
+    }
+    .skills__box img{
+        width: 100%;
+    }
+    .hobbies{
+        width: 170%;
+        margin-left: 90px;
+
+    }
+    .courses-box {
+        height: 260px;
+    }
+    .courses-box img{
+        width: 100%;
+        
+    }
+    .experience{
+        width: 170%;
+        margin-left: 90px;
+
+    }
+    .experiencia-box{
+        flex-direction: column;
+        width: 90%;
+        height: 80px;
+        padding: 10px;
+        
+    }
+    .academic{
+        width: 170%;
+        margin-left: 90px;
+
+    }
+    .contact{
+        width: 170%;
+        margin-left: 90px;
+
+    }
+    .contactar2 img{
+        height: 50px;
+        margin-left: 1px;
+    }
+   
+    .footer{
+        width: 220%;
+    }
+
+
+}
